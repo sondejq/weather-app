@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #175abc, #214bb7, #2f3bb0, #3d26a7, #4a009b);
+    color: white;
+}
+.flex {
+    display: flex;
+    padding: 50px;
+}
+.flex div {
+    padding-right: 7px;
+}
+.city,
+.temperature {
+    font-weight: 700;
+    font-size: 35px;
+}
+.icon,
+.scale {
+    font-size: 35px;
+}
+.description {
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.search-bar {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.loupe {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.loupe:hover {
+    opacity: 0.9;
+}
+.center {
+    text-align: center;
+}
